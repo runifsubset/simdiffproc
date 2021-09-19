@@ -1,6 +1,18 @@
 # Monte-Carlo Simulations and Analysis of Stochastic Differential Equations
 
-------------------------------------------------------------------------
+This series are managed by [!@runifsubset](https://github.com/runifsubset), based on [! A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
+
+\begin{equation}\label{eq:}
+\begin{cases}
+\begin{split}
+\frac{d}{dt} m(t) &= 0.5 \, \left( \theta^2 \, m(t) \right) \\
+\frac{d}{dt} S(t) &= \theta^2 \, \left( 2 \, S(t) + m(t)^2 \right)
+\end{split}
+\end{cases}
+\end{equation}
+
+
+--- ------------------------------------------------------------------------
 
 GitHub      | MacOS      | Linux      | Windows    | Code Coverge | J. Stat. Softw 
 ------------|------------|------------|------------|--------------|-------------
@@ -47,14 +59,3 @@ install.packages("Sim.DiffProc")
 install.packages("devtools")
 devtools::install_github("acguidoum/Sim.DiffProc")
 library("Sim.DiffProc")
-
--- by @runifsubset, based on A.C. ''Guidoum \and K. Boukhetala''' [https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1]
-
-\begin{equation}\label{eq:}
-\begin{cases}
-\begin{split}
-\frac{d}{dt} m(t) &= 0.5 \, \left( \theta^2 \, m(t) \right) \\
-\frac{d}{dt} S(t) &= \theta^2 \, \left( 2 \, S(t) + m(t)^2 \right)
-\end{split}
-\end{cases}
-\end{equation}
