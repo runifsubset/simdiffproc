@@ -1,6 +1,6 @@
 # Monte-Carlo Simulations and Analysis of Stochastic Differential Equations
 
-This series are managed by [!@runifsubset](https://github.com/runifsubset), based on [! A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
+This series are managed by [@runifsubset](https://github.com/runifsubset), based on [A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
 
 \begin{equation}\label{eq:}
 \begin{cases}
