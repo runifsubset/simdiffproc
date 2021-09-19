@@ -9,6 +9,8 @@ mod2 <- snssde1d(drift=f,diffusion=g,x0=10,M=1000,type="str",T=15) # Using Strat
 
 mem = MEM.sde(drift = f,diffusion = g)
 TEX.sde(mem)
+TEX.sde(object=c(drift = f, diffusion = g))
+
 
 AppendI = dsde1d(mod1, at =1)
 AppendS = dsde1d(mod2, at =1)

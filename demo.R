@@ -160,7 +160,7 @@ AIC(fitmod2)
 ############################################################################  
 
 f <- expression(0); g <- expression(1)
-B <- snssde1d(drift=f,diffusion=g,M=1000)
+B <- snssde1d(drift=f,diffusion=g,M=10)
 for (i in seq(B$t0,B$T,by=B$Dt)){
   plot(dsde1d(B, at = i),main=paste0('Transition Density \n t = ',i))
 }
