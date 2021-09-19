@@ -1,6 +1,6 @@
 # Monte-Carlo Simulations and Analysis of Stochastic Differential Equations
 
-This series are managed by [@runifsubset](https://github.com/runifsubset), based on [A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
+These series are managed by [@runifsubset](https://github.com/runifsubset), based on [A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
 
 The main case is an Itô Sde 1D :
  | dX(t) = (0.5 * theta^2 * X(t)) * dt + theta * X(t) * dW(t)
