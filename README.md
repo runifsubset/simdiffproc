@@ -5,12 +5,7 @@ These series are managed by [McHK a.k.a. runifsubset](https://github.com/runifsu
 The main case is an Itô´ SDE 1D :
 
 \begin{equation}\label{eq:}
-\begin{cases}
-\begin{split}
-\frac{d}{dt} m(t) &= 0.5 \, \left( \theta^2 \, m(t) \right) \\
-\frac{d}{dt} S(t) &= \theta^2 \, \left( 2 \, S(t) + m(t)^2 \right)
-\end{split}
-\end{cases}
+dX_{t} = \left( 0.5 \, \theta^2 \, X_{t} \right) \:dt +  \theta \, X_{t} \:dW_{t}
 \end{equation}
 
 which leads to these moments :
