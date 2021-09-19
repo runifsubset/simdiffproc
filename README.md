@@ -2,6 +2,14 @@
 
 This series are managed by [@runifsubset](https://github.com/runifsubset), based on [A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
 
+The main case is an Itô Sde 1D :
+ | dX(t) = (0.5 * theta^2 * X(t)) * dt + theta * X(t) * dW(t)
+ | t in [t0,T].
+
+Moment equations: 
+ | dm(t) = 0.5 * (theta^2 * m(t))
+ | dS(t) = theta^2 * (2 * S(t) + m(t)^2)
+
 \begin{equation}\label{eq:}
 \begin{cases}
 \begin{split}
