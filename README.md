@@ -2,11 +2,11 @@
 
 These series are managed by [McHK a.k.a. runifsubset](https://github.com/runifsubset), based on [A.C. Guidoum and K. Boukhetala](https://cran.r-project.org/web/packages/Sim.DiffProc/vignettes/snssde.html#fn1).
 
+All the files contained in this project do not come from the initial project. Some files are for example direct simulations that can be found in the book around the reference package.
+
 The main case is an Itô´ SDE 1D :
 
-\begin{equation}\label{eq:}
-dX_{t} = \left( 0.5 \, \theta^2 \, X_{t} \right) \:dt +  \theta \, X_{t} \:dW_{t}
-\end{equation}
+dX_t\ =\ \left(0.5\theta^2-X_t\right)dt\ +\ \theta X_t\ dW_t
 
 which leads to these moments :
 
